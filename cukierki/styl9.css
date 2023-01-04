@@ -1,0 +1,37 @@
+#lblok{
+    background-color: mediumorchid;
+    text-align: center;
+    float: left;
+
+}
+
+#baner{
+    background-color: antiquewhite;
+    text-align: center;
+    height: 140px;
+}
+
+#pblok{
+    background-color: mediumorchid;
+    text-align: center;
+    background-image: url("cukierki1.png");
+
+}
+
+#lewy{
+    background-color: mediumorchid;
+    float: left;
+    width: 50%;
+    height: 123px;
+}
+
+#prawy{
+    background-color: mediumorchid;
+    width: 50%;
+    height: 123px;
+    float: left;
+}
+
+#stopka{
+    background-color: antiquewhite;
+}

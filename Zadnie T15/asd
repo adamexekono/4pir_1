@@ -1,0 +1,15 @@
+SELECT tytul, rok, ocena
+from filmy, gatunki
+WHERE filmy.gatunki_id = gatunki.id
+AND filmy.gatunki_id="komedia";
+
+SELECT tytul, rok, ocena from filmy, gatunki WHERE filmy.gatunki_id = gatunki.id AND filmy.gatunki_id=5;
+
+SELECT tytul, filmy.id, rezyserzy.imie, rezyserzy.nazwisko
+FROM filmy, rezyserzy
+WHERE filmy.rezyserzy_id = rezyserzy.id;
+
+SELECT filmy.id, filmy.tytul
+FROM filmy
+WHERE filmy.rok = 2017
+AND filmy.ocena=6;
